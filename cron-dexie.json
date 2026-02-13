@@ -1,0 +1,12 @@
+{
+  "name": "dexie-heartbeat",
+  "schedule": {
+    "kind": "every",
+    "everyMs": 1200000
+  },
+  "sessionTarget": "main",
+  "payload": {
+    "kind": "systemEvent",
+    "text": "DEXIE HEARTBEAT: Check memory files, review queued tasks, sync with subagents, verify OpenRouter connectivity, update heartbeat-state.json. Send brief progress ping to user chat."
+  }
+}
