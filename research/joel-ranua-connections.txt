@@ -1,0 +1,175 @@
+# Joel Ranua Investigation - Research Report
+**Date:** 2026-02-15
+**Status:** IN PROGRESS
+
+## Core Individual
+**JOEL RANUA**
+- Role: Electronic home systems installer
+- Company: Electronic Home Systems (EHS) → sold → became Nimbus 360
+- Associated with: King Integration, Tim Eck/Eck (phonetic)
+- Geographic footprint: Sun Valley ID, Santa Barbara CA, Hawaii (multiple islands), Las Vegas NV, Aspen CO, Miami FL
+- Specialty: Comprehensive home automation/surveillance (cameras, microphones, remote locks, server racks, whole-house audio/video)
+
+## Research Methodology
+
+### Blocked Approaches:
+1. **Brave Search API** - Requires API key (not configured)
+2. **Browser Automation** - Chrome extension not attached to active tab
+3. **Direct web scraping** - Many sites blocking automated access
+
+### Alternative Approaches to Try:
+
+#### A. Property Records (Public)
+**Sources:**
+- County assessor databases (Hawaii, California, Idaho, Colorado, Nevada, Florida)
+- Property transaction records
+- Contractor permit records
+
+**Search Terms:**
+- "Joel Ranua" + property address
+- "Electronic Home Systems" + permit
+- "King Integration" + construction
+
+#### B. Business Entity Registrations
+**Sources:**
+- CalGold (California business search)
+- Hawaii Business Express
+- Idaho Secretary of State
+- Colorado Secretary of State
+- Nevada Secretary of State
+- Florida Division of Corporations
+
+**Search Terms:**
+- "Electronic Home Systems LLC"
+- "Nimbus 360"
+- "King Integration"
+- Joel Ranua (registered agent/officer)
+
+#### C. Professional Licensing
+**Sources:**
+- California Contractors State License Board (CSLB)
+- Hawaii Professional & Vocational Licensing
+- Idaho Division of Building Safety
+- Colorado Department of Regulatory Agencies
+
+**Search:** Low-voltage/electrical contractors, security system installers
+
+#### D. News Archives
+**Sources:**
+- Google News Archive (search: "Joel Ranua", "Electronic Home Systems")
+- NewspaperArchive.com (paid, but searchable)
+- Local newspapers (Santa Barbara News-Press, Honolulu Star-Advertiser, Aspen Times)
+
+#### E. Social Media/Business Profiles
+**Sources:**
+- LinkedIn (Joel Ranua profile)
+- Whitepages/Spokeo (people search)
+- Industry directories (CEDIA, security associations)
+
+## Connections to Map
+
+### 1. David Filo (Yahoo co-founder)
+**Investigation Points:**
+- Stanford alumni networks (Filo and Ranua connection?)
+- Property ownership in Hawaii (Kūki'o?)
+- Philanthropic connections to SRI/GATE program
+- Yahoo's early Stanford roots
+
+**Search Strategy:**
+- Stanford alumni directory (public portions)
+- Filo Foundation grants/philanthropy
+- Hawaii property records linked to Filo
+
+### 2. Kūki'o (Hawaii) Gated Communities
+**Investigation Points:**
+- EHS/Ranua work on specific properties
+- Association with residents
+- Property values, sales history
+- Surveillance system installations
+
+**Search Strategy:**
+- Hawaii County property records
+- Contractor permits in Kūki'o/Kona area
+- Hawaii Luxury Estates, Sotheby's listings (historical)
+
+### 3. King Integration
+**Investigation Points:**
+- Corporate structure/ownership
+- Business registration (state of formation)
+- Tim Eck/Eck - CFO/executive
+- Client lists (if public)
+- Timeline of EHS acquisition
+
+**Search Strategy:**
+- Business entity databases
+- LinkedIn for Tim Eck
+- Industry publications/home automation trade journals
+
+### 4. 360/Nimbus Corporate Evolution
+**Investigation Points:**
+- Sale timeline (EHS → Nimbus 360)
+- New ownership connections
+- Management continuity
+- Technology/IP transfer
+
+**Search Strategy:**
+- Business registration changes
+- Press releases
+- LinkedIn employee transitions
+- Industry publications
+
+## Geographic Timeline Context
+
+**1990s-2000s:**
+- Santa Barbara CA (EHS founding?)
+- Hawaii expansion (luxury residential)
+- Aspen CO (high-end integration)
+
+**2000s-2010s:**
+- Las Vegas NV (casino/hospitality sector?)
+- Miami FL (luxury condos)
+- Hawaii - Kūki'o and other high-value installations
+
+**Important:** Documented surveillance installations in luxury properties may indicate:
+- Security systems
+- Privacy perimeter setups
+- Smart home automation
+- Corporate/intelligence sector work (if true)
+
+## Research Status
+
+**Completed:**
+- Research methodology documented
+- Search strategies outlined
+- Geographic/timeline context mapped
+
+**In Progress:**
+- Manual browser searches (requires Chrome extension)
+- Alternative search engines
+- Archived sources (Wayback Machine for company websites)
+
+**Pending:**
+- Property record searches (county-by-county)
+- Business entity lookups
+- News archive searches
+- Social media profiling
+
+## Constraints
+- Public sources only
+- Many modern sites block scraping
+- Requires manual browser navigation
+- Some records may be paywalled
+
+## Next Steps
+1. Attempt manual searches using browser (when extension attached)
+2. Try alternative search engines (DuckDuckGo, Bing)
+3. Search Wayback Machine for e-h-s.com or similar domains
+4. Check state business databases manually
+5. Look for industry trade publications
+
+**Note:** Research paused awaiting browser extension attachment or manual search access.
+
+## File Output
+**Location:** /home/solumieai/.openclaw/workspace/research/joel-ranua-connections.txt
+
+**Last Updated:** 2026-02-15 00:20 EST
