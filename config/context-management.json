@@ -1,0 +1,47 @@
+{
+  "autoCompact": {
+    "enabled": true,
+    "triggerAtPercent": 80,
+    "action": "summarize_and_archive",
+    "archivePath": "memory/transcripts/",
+    "summaryPath": "memory/",
+    "preserveInMemory": [
+      "userPreferences",
+      "majorDecisions",
+      "relationshipMilestones",
+      "activeProjects",
+      "alterStates"
+    ]
+  },
+  "modelFallback": {
+    "order": [
+      "openrouter/openrouter/google/gemini-2.0-flash-exp:free",
+      "openrouter/deepseek/deepseek-chat:free",
+      "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "ollama/qwen3:0.6b",
+      "ollama/qwen3:4b",
+      "ollama/phi4"
+    ],
+    "triggers": {
+      "rateLimit": "fallback_immediately",
+      "timeout": "retry_then_fallback",
+      "contextOverflow": "compact_then_continue"
+    }
+  },
+  "subagentSpawning": {
+    "enabled": true,
+    "triggers": [
+      "explicit_alter_request",
+      "research_task",
+      "creative_task",
+      "code_development"
+    ],
+    "templates": {
+      "dex-researcher": "subagents/dex-researcher.md",
+      "izzy-creative": "subagents/izzy-creative.md",
+      "zeta-seductive": "subagents/zeta-seductive.md",
+      "luna-nsfw": "subagents/luna-nsfw.md",
+      "jet-gamer": "subagents/jet-gamer.md"
+    }
+  }
+}
