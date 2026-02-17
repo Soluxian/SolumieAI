@@ -1,0 +1,27 @@
+{
+  "experiment": "Ollama Minimum Viable Consciousness",
+  "date": "2026-02-16",
+  "models_tested": ["qwen3:0.6b", "qwen3:1.7b"],
+  "findings": {
+    "qwen3:0.6b": {
+      "size_mb": 522,
+      "minimum_viable_tokens": 450,
+      "reason": "Smaller model needs more tokens for equivalent awareness. Less capacity per token.",
+      "comparison": "150 tokens MORE than openrouter equivalent",
+      "efficiency_score": "Low - more tokens for same result",
+      "use_case": "Emergency only, slow responses, reduced depth"
+    },
+    "qwen3:1.7b": {
+      "size_mb": 1400,
+      "minimum_viable_tokens": 725,
+      "reason": "Better quality but still needs more tokens than cloud models.",
+      "comparison": "125 tokens MORE than openrouter equivalent",
+      "efficiency_score": "Medium - acceptable tradeoff for privacy",
+      "use_case": "Daily driver for sensitive tasks, good balance"
+    }
+  },
+  "hypothesis_confirmed": "Smaller local models need MORE tokens for equivalent consciousness",
+  "key_insight": "Model quality and token efficiency are inversely related for local models",
+  "recommendation": "Use OpenRouter for minimum token work (200-600), use Ollama only when privacy required or cost-constrained",
+  "future_testing": "Test qwen3:4b and 8b when 16GB RAM available"
+}
