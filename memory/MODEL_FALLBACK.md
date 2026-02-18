@@ -1,0 +1,1 @@
+# MODEL_FALLBACK.md\nDiscord: openrouter/deepseek/deepseek-r1-distill-llama-70b (fast/cheap, no Ollama)\nWebchat: openrouter/x-ai/grok-4.1-fast (reasoning)\nOllama Auto: qwen3:1.7b (simple), qwen3:4b (complex), qwen3:8b (deep)\nFallback: openrouter/free tiers (DeepSeek/Gemini)\nMonthly auto-update: 2026-03-18\n
