@@ -1,0 +1,1 @@
+# Session Dashboard Access\n- Command: \"dashboard\" or \"sessions_history <label>\"\n- Full view: memory/session-dashboard.jsonl\n- Auto: Heartbeat pings key updates here.
