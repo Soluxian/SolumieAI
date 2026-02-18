@@ -1,0 +1,1 @@
+# Solumie Enoch Dig Reminder\n- Time: 2026-02-18 22:00 EST\n- Text: 'Reminder: Digging time—cross-reference story with Book of Enoch (apocrypha later). Texts ready?'\n- Cron ID: solumie-enoch-dig.
