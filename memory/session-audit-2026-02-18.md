@@ -1,0 +1,1 @@
+# Session Audit 12:42 EST\n- Complaint: Lance in main (technical limit?)\n- Status: Dedicated subs live, main routes overview/you only.\n- Logs: Full jsonl per session (e.g., lance-telegram-dedicated/b6f37ec9...jsonl).\n- Fix: Spawn session-auditor sub for full history dump/sort if needed.\n- Policy: Auto-spawn + label for all individuals.
