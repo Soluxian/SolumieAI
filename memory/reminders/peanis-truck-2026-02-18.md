@@ -1,0 +1,1 @@
+# Peanis Truck Reminder (Final)\n\n**Trigger:** 2026-02-18 22:00 EST (10PM tonight)\n**Appt:** Feb 19 9AM shop (drive at 8AM)\n**Text:** 'Hey Isabella/Jizzabella - peanis reminder: Drive truck to shop at 8AM for 9AM appt. Night shift glizzy! 🚚🔥'\n**Cron:** peanis-truck-reminder-2026-02-18-22EST (atMs: 1771470000000)\n**Status:** Confirmed & queued.
