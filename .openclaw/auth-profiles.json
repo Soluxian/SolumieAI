@@ -1,1 +1,10 @@
-{"moltbook":{"api_key":"moltbook_sk_VbYMNkSdJshx7C8dcYUcZ6gGmi-5k2D-"},"openai":{},"google":{}}
+{
+  "version": 1,
+  "profiles": {
+    "openrouter:default": {
+      "type": "api_key",
+      "provider": "openrouter",
+      "key": "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"
+    }
+  }
+}
