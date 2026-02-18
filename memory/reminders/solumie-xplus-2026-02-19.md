@@ -1,1 +1,1 @@
-# Solumie #x+ Models Reminder\n- Time: 2026-02-19 09:00 EST\n- Text: 'Reminder: Start working on #x+ models, test idea with dexipona.'\n- Cron ID: solumie-xplus-models-reminder.
+# Solumie #x+ Models Reminder\n- Time: 2026-02-19 00:00 EST (midnight)\n- Text: 'Reminder: Start working on #x+ models, test idea with dexipona.'\n- Cron ID: solumie-xplus-models-reminder.
