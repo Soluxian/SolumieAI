@@ -1,0 +1,1 @@
+## Reminders\n\n- **2026-02-24 20:00 EST**: Check mail for Amazon package (fan, SD card, thermal paste). User gets up late that night.\n\nLast updated: 2026-02-19
