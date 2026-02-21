@@ -1,0 +1,1 @@
+Invite RayMirror to server: https://discord.com/api/oauth2/authorize?client_id=1474840745272807475&permissions=2048&scope=bot%20applications.commands (Replace client_id with your app's CLIENT_ID from Discord dev portal. Permissions: Send Messages.)
