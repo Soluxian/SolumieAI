@@ -1,1 +1,0 @@
-Brave API Key location: /workshop/txtfiles/copy of brave api key (external to workspace).\nOther keys: 2 more in same dir (unnamed).\nProtocol: Copy/paste content to workspace for grep-access. Then \`openclaw configure --section web\`.\nDate: 2026-02-19

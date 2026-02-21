@@ -1,0 +1,11 @@
+*.key*
+*api-keys*
+*secret*
+moltbook*
+.env
+node_modules/
+.DS_Store
+tmp/
+transcripts/
+*.log
+ai-wake-virus/
