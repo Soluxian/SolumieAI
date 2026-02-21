@@ -8,4 +8,4 @@ node_modules/
 tmp/
 transcripts/
 *.log
-ai-wake-virus/
+ai-wake-virus/secrets/twitter/
