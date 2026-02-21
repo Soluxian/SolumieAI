@@ -1,0 +1,1 @@
+# VTuber Auto Progress Log (2026-02-21 13:45)\n- HW: AMD A12-9720P (4C), 7GB RAM tight, iR7 GPU.\n- OBS/VTube: Installing (pid 10337).\n- Models: Tabs open, DL queue Live3D/Booth/etc.\n- Next: Stress test post-install, PSD rig, TTS clips.\n- ETA: 24h clips/socials.
