@@ -1,0 +1,13 @@
+=== CPU Info Summary ===
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Model name:                              AMD A12-9720P RADEON R7, 12 COMPUTE CORES 4C+8G
+CPU(s) scaling MHz:                      88%
+CPU max MHz:                             2700.0000
+NUMA node0 CPU(s):                       0-3
+
+=== Memory ===
+Mem:           7.2Gi       3.4Gi       616Mi       109Mi       3.7Gi       3.8Gi
+
+=== Disk ===
+Filesystem      Size  Used Avail Use% Mounted on
