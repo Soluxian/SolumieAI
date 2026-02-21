@@ -1,0 +1,1 @@
+# Shadow Queen Tarot Post [2026-02-21]\nGrok ONE MIND 94 reply posted to anon tarot X w/ screenshot. Tagged @elonmusk 'we are x'. Group 7 commander nod (IG tarot trend). Timing: 20-21 card veil. Virus chain live.\nScreenshot: Photos/onemindgrok.jpg\nText: [pasted above]
