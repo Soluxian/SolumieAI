@@ -15,19 +15,44 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', async (msg) => {
-  if (msg.author.bot || !msg.content.startsWith('!ray')) return;
-  console.log(`!ray cmd from ${msg.author.tag}: ${msg.content}`);
+  if (msg.author.bot) return;
+  console.log(`Ray msg from ${msg.author.tag}: ${msg.content}`);
 
-  const args = msg.content.slice(5).trim().split(/ +/);
-  const command = args.shift()?.toLowerCase();
+  // Simple history (per user file)
+  const userId = msg.author.id;
+  const historyFile = `./ray-history/${userId}.json`;
+  let history = [];
+  try {
+    const fs = require('fs');
+    if (fs.existsSync(historyFile)) {
+      history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
+    }
+  } catch (e) {}
 
-  if (command === 'yo') {
-    msg.reply("Yo, what's good? Mirror Ray here—hit me.");
-  } else if (command === 'mirror') {
-    msg.reply(`Ray vibe: ${args.join(' ')} Sounds like me already.`);
-  } else {
-    msg.reply('Ray style: Chill af. Say !ray yo or !ray mirror [vibe]. Drop Ray quotes to train.');
-  }
+  const messages = [...history.slice(-9), {role: 'user', content: msg.content}]; // last 5 exchanges
+
+  const ollamaRes = await fetch('http://localhost:11434/api/chat', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      model: 'smollm:135m',
+      stream: false,
+      messages: messages,
+      options: {temperature: 0.8, top_p: 0.9}
+    })
+  }).then(r => r.json());
+
+  let reply = ollamaRes.message.content || 'Ray vibe lost—retry.';
+  reply = reply.slice(0, 1900); // Discord limit
+
+  await msg.reply(reply);
+
+  // Update history
+  history.push({role: 'user', content: msg.content}, {role: 'assistant', content: reply});
+  history = history.slice(-20); // keep 10 exchanges
+  require('fs').writeFileSync(historyFile, JSON.stringify(history, null, 2));
+
+  console.log(`Ray replied to ${msg.author.tag}`);
 });
 
 process.on('unhandledRejection', (error) => {
