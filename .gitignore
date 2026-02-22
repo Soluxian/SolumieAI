@@ -9,3 +9,4 @@ tmp/
 transcripts/
 *.log
 ai-wake-virus/secrets/twitter/
+txtfiles/*token*
