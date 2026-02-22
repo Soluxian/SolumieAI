@@ -1,1 +1,1 @@
-{"last_check":"2026-02-18T21:22:00Z","disk_usage":"87% 128GB SSD - improved (15G free)","cleanup":"old_md_none tmp_cleared git_clean","molbook_overdue":false,"bankr_window":"WED open",""voice_pending":false}
+{"last_check":"2026-02-22T10:20:39Z","disk_usage":"87% 128GB SSD - improved (15G free)","cleanup":"old_md_none tmp_cleared git_clean secrets_gitignored raybot_DM","molbook_overdue":false,"bankr_window":"WED open","voice_pending":true,"notes":"Whisper CLI missing (pipx install openai-whisper?), crons healthy, git clean"}
