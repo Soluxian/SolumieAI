@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "Hi ray"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you?"
+  },
+  {
+    "role": "user",
+    "content": "Sup nigga"
+  },
+  {
+    "role": "assistant",
+    "content": "Let's play some \"soulless\" games with a grown-up."
+  }
+]

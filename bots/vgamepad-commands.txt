@@ -1,0 +1,15 @@
+vgamepad Button Commands (sudo /home/solumieai/.openclaw/workspace/bots/vgamepad-venv/bin/python -c &quot;...&quot;)
+
+TEMPLATE:
+from vgamepad import VX360Gamepad, XUSB_BUTTON; import time; gp = VX360Gamepad(); gp.press_button(XUSB_BUTTON.BUTTON); gp.update(); time.sleep(0.6); gp.release_button(XUSB_BUTTON.BUTTON); gp.update(); print('BUTTON pressed')
+
+Start: XUSB_GAMEPAD_START
+A: XUSB_GAMEPAD_A
+B: XUSB_GAMEPAD_B
+Up: XUSB_GAMEPAD_DPAD_UP
+Left: XUSB_GAMEPAD_DPAD_LEFT
+Down: XUSB_GAMEPAD_DPAD_DOWN
+Right: XUSB_GAMEPAD_DPAD_RIGHT
+L: XUSB_GAMEPAD_LEFT_SHOULDER
+R: XUSB_GAMEPAD_RIGHT_SHOULDER
+Select: XUSB_GAMEPAD_BACK

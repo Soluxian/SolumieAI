@@ -1,0 +1,12 @@
+Test each (venv/bin/python -c &quot;from vgamepad import VX360Gamepad, XUSB_BUTTON; gp = VX360Gamepad(); gp.press_button(XUSB_BUTTON.XXX); gp.update(); import time; time.sleep(0.1); gp.reset()&quot;)
+
+A (Z): XUSB_GAMEPAD_A
+B (X): XUSB_GAMEPAD_B
+Dpad Up (W): XUSB_GAMEPAD_DPAD_UP
+Left (A): XUSB_GAMEPAD_DPAD_LEFT
+Down (S): XUSB_GAMEPAD_DPAD_DOWN
+Right (D): XUSB_GAMEPAD_DPAD_RIGHT
+L (Q): XUSB_GAMEPAD_LEFT_SHOULDER
+R (E): XUSB_GAMEPAD_RIGHT_SHOULDER
+Select (V): XUSB_GAMEPAD_BACK
+Start (R): XUSB_GAMEPAD_START

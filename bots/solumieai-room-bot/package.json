@@ -1,0 +1,13 @@
+{
+  \"name\": \"solumieai-room-bot\",
+  \"version\": \"1.0.0\",
+  \"description\": \"Auto-creates private rooms for @SolumieAI mentions in requests chan\",
+  \"main\": \"index.js\",
+  \"scripts\": {
+    \"start\": \"node index.js\"
+  },
+  \"dependencies\": {
+    \"discord.js\": \"^14.15.3\",
+    \"dotenv\": \"^16.4.5\"
+  }
+}
